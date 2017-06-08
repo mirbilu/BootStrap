@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>后台首页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fix-top" role="navigation">
+        <div class="container">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">极客学院</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">课程</a></li>
+                        <li><a href="#">名师</a></li>
+                        <li><a href="#">明星学员</a></li>
+                        <li><a href="#">更多</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="hidden-md hidden-lg">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                    <li role="presentation"><a href="#messages" data-toggle="tab">Messages</a></li>
+                    <li role="presentation"><a href="#class" data-toggle="tab">Class</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 visible-md-inline-block visible-lg-inline-block">
+                <ul class="nav nav-pills nav-stacked" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                    <li role="presentation"><a href="#messages" data-toggle="tab">Messages<span class="badge">3</span></a></li>
+                    <li role="presentation"><a href="#class" data-toggle="tab">Class</a></li>
+                </ul>
+            </div>
+            <div class="col-md-10 tab-content">
+                <div class="page_m page_right tab-pane active" id="home">
+                    <div class="jumbotron">
+                        <h1>Welcome to Home</h1>
+                        <p>Web前端开发工程师是一个很新的职业，在国内乃至国际上真正开始受到重视的时间不超过10年。Web前端开发是从网页制作演变而来的，名称上有很明显的时代特征。在互联网的演化进程中，网页制作是Web 1.0时代的产物，那时网站的主要内容都是静态的，用户使用网站的行为也以浏览为主。
+                        </p>
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Join us</a></p>
+                    </div>
+                </div>
+                <div class="page_m page_right_m page_list1 tab-pane" id="messages">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item disabled">
+                                All Message
+                            </a>
+                        <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">First Message</h4>
+                            <p class="list-group-item-text">十一”前几天在家上网，一好久不联系的大学同学，突然间qq、微信都在线了，还给我发了个祝福短信。第一反应就是这货要结婚了，果断编了个理由回他，“哥们，我‘十一’订婚，你来不来参加我的订婚宴啊？”果不其然，他回：“不好意思，我‘十一’结婚，看样子你也来不了了。”～省了500大洋。</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">Second Message</h4>
+                            <p class="list-group-item-text">人的染色体有23对。有一天，教生物的老头慢悠悠地问：“染色体多少对啊，同学们。”角落里某二货大声答道：“64对啊！”老头淡定而严肃地点点头：“嗯，现在告诉我，你来地球的目的是什么？”</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">Third Message</h4>
+                            <p class="list-group-item-text">知道吗？我真的好想带你出去体验一下KTV的魅力啊！知道什么是KTV吗？就是K你一顿，T你一脚，最后我再做个V的手势耶！</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="page_m page_right_m page_list2 tab-pane" id="class">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Swift</h3>
+                        </div>
+                        <div class="panel-body">
+                            苹果于2014年WWDC（苹果开发者大会）发布的新开发语言，可与Objective-C共同运行于Mac OS和iOS平台，用于搭建基于苹果平台的应用程序。
+                        </div>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Java</h3>
+                        </div>
+                        <div class="panel-body">
+                            作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程。
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Html</h3>
+                        </div>
+                        <div class="panel-body">
+                            网页的本质就是超级文本标记语言，通过结合使用其他的Web技术（如：脚本语言、公共网关接口、组件等），可以创造出功能强大的网页。
+                        </div>
+                    </div>
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">CSS</h3>
+                        </div>
+                        <div class="panel-body">
+                            提供了一种样式描述，定义了其中元素的显示方式。CSS在Web设计领域是一个突破。利用它可以实现修改一个小的样式更新与之相关的所有页面元素。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
